@@ -1,9 +1,13 @@
 Feedly exporter for Prometheus
 ===============================
 
-Get the subscription data for your blog.
+Get subscription data for your blog straight from Feedly's v3 Cloud API.
 
-Metrics:
+#### Want to learn how to use Prometheus with Docker?
+
+[Learn Prometheus here on my blog](http://blog.alexellis.io/tag/prometheus/)
+
+### Metrics included:
 
 * feedly\_subscribers - count of subscriptions
 * feedly\_response - remote query duration
