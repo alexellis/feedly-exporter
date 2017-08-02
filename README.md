@@ -9,12 +9,13 @@ Metrics:
 * feedly\_response - remote query duration
 * feedly\_velocity - publishing schedule
 
-Example:
+### Example:
 
 Run the exporter:
 
 ```
-$ go run app.go -urls=http://blog.alexellis.io/rss/,http://jmkhael.io/rss/,https://finnian.io/blog/rss/,http://blog.technologee.co.uk/rss/,http://rbkr.ddns.net/rss/,http://brianchristner.io/rss/
+$ go get -d -v
+$ go run app.go -urls=http://blog.alexellis.io/rss/,http://jmkhael.io/rss/
 ```
 
 Now use `curl` or add it to your scrape_config section:
